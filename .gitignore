@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+tennis-env-3.9/
+.env/
+
+# Unity logs/cache
+*.log
+*.DS_Store
+*.pidb
+*.sln
+Library/
+Temp/
+Obj/
+Build/
+*.userprefs
+
+# Jupyter
+.ipynb_checkpoints/
