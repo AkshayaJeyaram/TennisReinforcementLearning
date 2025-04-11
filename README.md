@@ -26,7 +26,9 @@ First, install `pyenv` if you haven't already. You can install it following the 
 Then, install Python 3.9.13:
 
 pyenv install 3.9.13
+
 pyenv activate tennis-env-3.9
+
 This will create a Python environment specifically for this project.
 
 2. Install Dependencies
