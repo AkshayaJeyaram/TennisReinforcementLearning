@@ -57,13 +57,6 @@ Windows: Tennis.exe
 
 Linux: Tennis.x86_64
 
-Ensure the correct build is in place and that the folder structure is as follows:
-
-
-TennisReinforcementLearning/
-├── Tennis/
-│   ├── Tennis.app (for macOS) or Tennis.exe (for Windows) or Tennis.x86_64 (for Linux)
-
 4. Running the Code
 Once everything is set up, you can run the training script. Make sure your environment is activated:
 
