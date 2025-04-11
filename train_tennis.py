@@ -17,9 +17,6 @@ else:  # Linux
 
 env = UnityEnvironment(file_name=env_path, no_graphics=False)
 
-#env_path = "/Users/akshayajeyaram/Documents/University of Bath/Academic/Semester 2/Reinforcement Learning/Coursework 2/Tennis.app"
-
-#env = UnityEnvironment(file_name=env_path, no_graphics=False)
 env.reset()
 
 behavior_name = list(env.behavior_specs.keys())[0]
