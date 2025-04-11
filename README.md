@@ -31,7 +31,7 @@ pyenv activate tennis-env-3.9
 
 This will create a Python environment specifically for this project.
 
-2. Install Dependencies
+### 2. Install Dependencies
 Clone the repository, navigate into the project folder, and install the necessary dependencies:
 
 
@@ -50,7 +50,7 @@ You can also install a specific version of PyTorch (1.8.1) optimized for CPU if 
 
 pip install https://download.pytorch.org/whl/cpu/torch-1.8.1%2Bcpu-cp38-cp38-macosx_10_9_x86_64.whl
 
-3. Set Up Unity Environment
+### 3. Set Up Unity Environment
 Download the Unity Tennis environment (https://github.com/soliao/AI-Tennis-Players?tab=readme-ov-file) build and place it in the Tennis folder within the project directory. Depending on your operating system:
 
 macOS: Tennis.app
@@ -59,7 +59,7 @@ Windows: Tennis.exe
 
 Linux: Tennis.x86_64
 
-4. Running the Code
+#### 4. Running the Code
 Once everything is set up, you can run the training script. Make sure your environment is activated:
 
 # Activate the Python environment
