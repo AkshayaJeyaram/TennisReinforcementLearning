@@ -2,27 +2,21 @@ from mlagents_envs.environment import UnityEnvironment
 from mlagents_envs.environment import ActionTuple
 import numpy as np
 
-# Path to the Unity executable
 env_path = "/Users/akshayajeyaram/Documents/University of Bath/Academic/Semester 2/Reinforcement Learning/Coursework 2/Tennis.app"
 
-# Start the environment
 env = UnityEnvironment(file_name=env_path, no_graphics=False)
 env.reset()
 
-# Get behavior name (there's usually only one in Tennis)
 behavior_name = list(env.behavior_specs.keys())[0]
 print(f"Behavior name: {behavior_name}")
 
-# Get the spec of the behavior
 spec = env.behavior_specs[behavior_name]
 
-# Step through a few episodes
 for episode in range(3):
     env.reset()
     decision_steps, terminal_steps = env.get_steps(behavior_name)
 
     for step in range(100):
-        # Take random actions
         action = np.random.uniform(low=-1.0, high=1.0, size=spec.action_spec.continuous_size)
         action = ActionTuple(continuous=np.array([action for _ in range(len(decision_steps))]))
 
@@ -31,7 +25,6 @@ for episode in range(3):
 
         decision_steps, terminal_steps = env.get_steps(behavior_name)
 
-        # Print the reward if available
         for agent_id in decision_steps.agent_id:
             reward = decision_steps[agent_id].reward
             print(f"Step {step} - Agent {agent_id} - Reward: {reward}")

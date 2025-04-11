@@ -1,7 +1,4 @@
 
-pip install 'pettingzoo[atari]'
-pip install "autorom[accept-rom-license]"
-from pettingzoo.atari import tennis_v3
 
 env = tennis_v3.env(render_mode = 'human')
 env.reset(seed=42)
