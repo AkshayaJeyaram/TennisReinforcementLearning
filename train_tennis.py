@@ -1,10 +1,25 @@
+import os
+import platform
 from mlagents_envs.environment import UnityEnvironment
 from mlagents_envs.environment import ActionTuple
 import numpy as np
 
-env_path = "/Users/akshayajeyaram/Documents/University of Bath/Academic/Semester 2/Reinforcement Learning/Coursework 2/Tennis.app"
+# Automatically choose the correct file
+base_path = os.path.dirname(os.path.abspath(__file__))
+env_dir = os.path.join(base_path, "Tennis")
+
+if platform.system() == "Darwin":
+    env_path = os.path.join(env_dir, "Tennis.app")
+elif platform.system() == "Windows":
+    env_path = os.path.join(env_dir, "Tennis.exe")
+else:  # Linux
+    env_path = os.path.join(env_dir, "Tennis.x86_64")
 
 env = UnityEnvironment(file_name=env_path, no_graphics=False)
+
+#env_path = "/Users/akshayajeyaram/Documents/University of Bath/Academic/Semester 2/Reinforcement Learning/Coursework 2/Tennis.app"
+
+#env = UnityEnvironment(file_name=env_path, no_graphics=False)
 env.reset()
 
 behavior_name = list(env.behavior_specs.keys())[0]
