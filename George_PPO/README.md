@@ -2,17 +2,17 @@
 ##### George Kontis - April 2025
 #### File description
 
-```http
+```
   ppo.py
 ```
 Contains code for the Actor-Critic networks and the PPO agent.
 
-```http
+```
   mappo.py
 ```
 Contains code for the multi agent PPO system, using previous code from ```ppo.py```.
 
-```http
+```
   train_evaluate.py
 ```
 Contains code for the Generalised Advantage Estimator, RolloutBuffer, environment setup and the train and evaluate functions using ```mappo.py``` to train and test the two PPO agents.
