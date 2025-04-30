@@ -72,6 +72,42 @@ A Unity window will open, and agents will learn in real time.
 * Agent logs record actor/critic losses, entropy, KL per update epoch.
 
 * You can plot CSVs to monitor training curves.
+
+
+### Evaluation Script
+
+After training, you can evaluate your saved Tennis agents with optional action–smoothing and visualize their performance in the Unity window.
+
+#### Configuration
+
+Add the following field to your `config.yaml` under the `train` section (defaults to 0.85 if omitted):
+
+```
+train:
+  eval_smoothing_alpha: 0.85   
+
+```
+
+#### Usage
+
+```
+python evaluate_unity.py 
+```
+
+or by passing following arguments:
+
+```
+python evaluate_unity.py  --config config.yaml  --run_dir saved_models/  --episodes 10
+```
+
+* --config
+	Path to your config.yaml.
+
+* --run_dir
+	Directory containing your saved agent checkpoints (agent0_best.pth, agent1_best.pth, …).
+
+* --episodes
+	Number of full episodes to run during evaluation.
 	
 
 ### Next Steps
