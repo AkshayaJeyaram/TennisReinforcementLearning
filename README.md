@@ -46,9 +46,13 @@ pip install https://download.pytorch.org/whl/cpu/torch-1.8.1%2Bcpu-cp38-cp38-mac
 # 4. Set Up Unity Environment
 
 Download the Tennis Environment (Udacity's modified version) build and place it in the Tennis folder within the project directory. Depending on your operating system:
+
 Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip
+
 Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip
+
 Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip
+
 Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
 
 (Note the PPO code was done on a windows machine, so the unity file present in the ```George_PPO``` and ```PPO-shreyas-unity-tennis``` folders is compatible with windows OS and should be replaced with the respective file as supported by your machine)
