@@ -67,15 +67,15 @@ A Unity window will open, and agents will learn in real time.
 	
 ### Results & Visualization
 
-	* Episode logs record max/avg rewards and entropy coefficient.
+* Episode logs record max/avg rewards and entropy coefficient.
 
-	* Agent logs record actor/critic losses, entropy, KL per update epoch.
+* Agent logs record actor/critic losses, entropy, KL per update epoch.
 
-	* You can plot CSVs to monitor training curves.
+* You can plot CSVs to monitor training curves.
 	
 
 ### Next Steps
 
-	* Checkpoint loading & evaluation: add a script to load saved .pth and evaluate or record videos.
+* Checkpoint loading & evaluation: add a script to load saved .pth and evaluate or record videos.
 
-	* Hyperparameter search: tweak config.yaml to improve performance.
+* Hyperparameter search: tweak config.yaml to improve performance.
