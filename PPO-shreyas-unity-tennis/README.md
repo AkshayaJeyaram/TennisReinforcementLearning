@@ -1,10 +1,10 @@
 
 ##### Shreyas Bhavsar - April 2025
 
-## Unity Tennis Multi-Agent
+# Unity Tennis Multi-Agent
 This repository implements a Proximal Policy Optimization (PPO) algorithm to train two agents in Unity’s Tennis environment (multi-agent). It is fully modular and configurable via config.yaml.
 
-### Directory Structure
+## Directory Structure
 ```
 ppo_project/
 │
@@ -33,13 +33,13 @@ ppo_project/
 ```
 
 
-### Configuration
+## Configuration
 
 All hyperparameters and file paths live in config.yaml.
 Just edit config.yaml—no need to change any code files.
 
 
-### How to Run
+## How to Run
 
 1. Place your Unity Tennis executable path in config.yaml → env.unity_path
 
@@ -65,7 +65,7 @@ A Unity window will open, and agents will learn in real time.
 	* Model checkpoints in saved_models/
 	
 	
-### Results & Visualization
+## Results & Visualization
 
 * Episode logs record max/avg rewards and entropy coefficient.
 
@@ -74,11 +74,11 @@ A Unity window will open, and agents will learn in real time.
 * You can plot CSVs to monitor training curves.
 
 
-### Evaluation Script
+## Evaluation Script
 
 After training, you can evaluate your saved Tennis agents with optional action–smoothing and visualize their performance in the Unity window.
 
-#### Configuration
+### Configuration
 
 Add the following field to your `config.yaml` under the `train` section (defaults to 0.85 if omitted):
 
@@ -88,7 +88,7 @@ train:
 
 ```
 
-#### Usage
+### Usage
 
 ```
 python evaluate_unity.py 
@@ -100,17 +100,17 @@ or by passing following arguments:
 python evaluate_unity.py  --config config.yaml  --run_dir saved_models/  --episodes 10
 ```
 
-* --config
+* --config :
 	Path to your config.yaml.
 
-* --run_dir
+* --run_dir : 
 	Directory containing your saved agent checkpoints (agent0_best.pth, agent1_best.pth, …).
 
-* --episodes
+* --episodes :
 	Number of full episodes to run during evaluation.
 	
 
-### Next Steps
+## Next Steps
 
 * Checkpoint loading & evaluation: add a script to load saved .pth and evaluate or record videos.
 
