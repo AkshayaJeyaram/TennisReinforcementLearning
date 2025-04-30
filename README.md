@@ -24,13 +24,17 @@ Download from https://www.anaconda.com/products/navigator, following the guideli
 
 # 2. Create a Python 3.6 environment
 Run this command in the Anaconda Prompt 
-```conda create --name RL python=3.6```
+```bash
+conda create --name RL python=3.6
+```
 
 # 3. Clone this repository
 (Assuming git package is installed on your device) 
-```  git clone https://github.com/AkshayaJeyaram/TennisReinforcementLearning.git```
-```  cd deep-reinforcement-learning/python```
-```  pip install -r requirements.txt```
+```bash
+git clone https://github.com/AkshayaJeyaram/TennisReinforcementLearning.git
+cd deep-reinforcement-learning/python
+pip install -r requirements.txt
+```
 
 Note: If you are on windows and you get the error "Could not find a version that satisfies the requirement torch==0.4.0 (from unityagents==0.4.0)" occurs, refer to duhgrando's answer on this thread:
 https://github.com/udacity/deep-reinforcement-learning/issues/13
