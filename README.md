@@ -1,21 +1,6 @@
 # Tennis Reinforcement Learning
 
-This project uses Unity's Machine Learning Agents (ML-Agents) to train two reinforcement learning agents to play tennis against each other. The environment is set up using Unity and Python, and the agents are trained using PPO and DDPG (covered later.
-
-## Prerequisites
-
-To set up the environment, make sure you have the following:
-
-- Unity (with the Tennis environment)
-- Python 3.6.13
-- pip (Python package installer)
-
-### Required Python Packages
-
-1. `unityagents` for Unity environment interaction
-2. `numpy` for numerical operations
-3. `torch` for deep learning models
-4. Other dependencies as required by the project
+This project uses Unity's Machine Learning Agents (ML-Agents) to train two reinforcement learning agents to play tennis against each other. The environment is set up using Unity and Python, and the agents are trained using PPO and DDPG.
 
 ## Setup Instructions
 
