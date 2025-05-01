@@ -4,7 +4,7 @@
 env:
   type: "unity"   # Environment type
   name: "unity"   # Arbitrary name identifier
-  unity_path: "C:/Users/Shreyas/deep-reinforcement-learning/p3_collab-compet/Tennis_Windows_x86_64/Tennis.exe"  # Path to Unity executable
+  unity_path: "/Tennis_Windows_x86_64/Tennis.exe"  # Path to Unity executable
   brain_name: "TennisBrain"  # Name of the brain (agent controller) inside the Unity environment
   seed: 42  # Random seed for reproducibility
 
