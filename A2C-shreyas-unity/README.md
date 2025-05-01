@@ -14,7 +14,7 @@ ppo_project/
 │
 ├── a2c/
 │   ├── buffer.py              # RolloutBuffer to store trajectories
-│   ├── a2c_agent.py           # PPOAgent: actor, critic, update logic
+│   ├── a2c_agent.py           # A2CAgent: actor, critic, update logic
 │   └── utils.py               # compute_gae utility
 │
 ├── train/
