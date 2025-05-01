@@ -1,7 +1,7 @@
 
 ##### Shreyas Bhavsar - April 2025
 
-## Unity Tennis Multi-Agent
+## Advantage Actor-Critic (A2C) - Unity Tennis Multi-Agent
 This repository implements an Advantage Actor-Critic (A2C) algorithm to train two agents in Unity’s Tennis environment (multi-agent). It is fully modular and configurable via `config.yaml`.
 
 
