@@ -1,7 +1,7 @@
 
 ##### Shreyas Bhavsar - April 2025
 
-# Unity Tennis Multi-Agent
+# Proximal Policy Optimization (PPO) - Unity Tennis Multi-Agent
 This repository implements a Proximal Policy Optimization (PPO) algorithm to train two agents in Unity’s Tennis environment (multi-agent). It is fully modular and configurable via config.yaml.
 
 ## Directory Structure
