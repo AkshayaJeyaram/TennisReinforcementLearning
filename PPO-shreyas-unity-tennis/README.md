@@ -23,7 +23,7 @@ ppo_project/
 │   └── train_unity.py         # Collect rollouts, update agents, logging & model saving
 │
 ├── test/
-│   └── evaluate_unity.py         # Run trained agents in Unity Tennis & evaluate performance
+│   └── evaluate_unity.py      # Run trained agents in Unity Tennis & evaluate performance
 │
 ├── saved_models/              # Saved `.pth` checkpoints
 │
