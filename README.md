@@ -42,5 +42,5 @@ Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Ten
 Once these steps have been followed, open the respective PPO and A2C folders and follow the instructions there on how to run the code.
 
 # Additional Notes and Credits
-Please note the DDPG implementation is predominantly based on Ibarazza's implementation (https://github.com/lbarazza/Tennis/tree/master). We used it as a baseline against our from scratch implementation of PPO. The implmentation of PPO discussed in the report is found in the ```PPO-shreyas-unity-tennis``` folder, which is a refinement and extension of the PPO code found in ```George_PPO```, which has been coded from scratch for this task.
+Please note the DDPG implementation is predominantly based on Ibarazza's implementation (https://github.com/lbarazza/Tennis/tree/master). We used it as a baseline against our from scratch implementation of PPO. The implementation of PPO discussed in the report is found in the ```PPO-shreyas-unity-tennis``` folder, which is a refinement and extension of the PPO code found in ```George_PPO```, which has been coded from scratch for this task.
 
