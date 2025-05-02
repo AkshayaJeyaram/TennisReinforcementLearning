@@ -36,10 +36,10 @@ Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Ten
 
 Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
 
-(Note the PPO code was done on a windows machine, so the unity file present in the ```George_PPO``` and ```PPO-shreyas-unity-tennis``` folders is compatible with windows OS and should be replaced with the respective file as supported by your machine)
+(Note the PPO code was done on a windows machine, so the unity file present in the ```George_PPO```, ```PPO-shreyas-unity-tennis``` and ```A2C-shreyas-unity``` folders is compatible with windows OS and should be replaced with the respective file as supported by your machine)
 
 # Running the Code
-Once these steps have been followed, open the respective PPO and DDPG folders and follow the instructions there on how to run the code.
+Once these steps have been followed, open the respective PPO and A2C folders and follow the instructions there on how to run the code.
 
 Additional Notes
 Ensure that you have Unity installed and the ML-Agents package configured if you are planning to make changes to the Unity environment.
