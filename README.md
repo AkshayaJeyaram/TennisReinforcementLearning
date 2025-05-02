@@ -44,3 +44,5 @@ Once these steps have been followed, open the respective PPO and A2C folders and
 # Additional Notes and Credits
 Please note the DDPG implementation is predominantly based on Ibarazza's implementation (https://github.com/lbarazza/Tennis/tree/master). We used it as a baseline against our from scratch implementation of PPO. The implementation of PPO discussed in the report is found in the ```PPO-shreyas-unity-tennis``` folder, which is a refinement and extension of the PPO code found in ```George_PPO```, which has been coded from scratch for this task.
 
+The A2C implementation found in ```A2C-shreyas-unity``` is also a from scrath implementation.
+
