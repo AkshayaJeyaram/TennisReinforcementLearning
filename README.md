@@ -21,7 +21,7 @@ cd TennisReinforcementLearning
 pip install -r requirements.txt
 ```
 
-Note: If you are on windows and you get the error "Could not find a version that satisfies the requirement torch==0.4.0 (from unityagents==0.4.0)" occurs, refer to duhgrando's answer on this thread:
+Note: If you are on Windows and you get the error "Could not find a version that satisfies the requirement torch==0.4.0 (from unityagents==0.4.0)" occurs, refer to duhgrando's answer on this thread:
 https://github.com/udacity/deep-reinforcement-learning/issues/13
 
 # 4. Set Up Unity Environment
@@ -36,7 +36,7 @@ Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Ten
 
 Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
 
-(Note the PPO code was done on a windows machine, so the unity file present in the ```George_PPO```, ```PPO-shreyas-unity-tennis``` and ```A2C-shreyas-unity``` folders is compatible with windows OS and should be replaced with the respective file as supported by your machine)
+(Note the PPO code was done on a windows machine, so the Unity file present in the ```George_PPO```, ```PPO-shreyas-unity-tennis``` and ```A2C-shreyas-unity``` folders is compatible with Windows OS and should be replaced with the respective file as supported by your machine)
 
 # Running the Code
 Once these steps have been followed, open the respective PPO and A2C folders and follow the instructions there on how to run the code.
@@ -44,5 +44,5 @@ Once these steps have been followed, open the respective PPO and A2C folders and
 # Additional Notes and Credits
 Please note the DDPG implementation is predominantly based on Ibarazza's implementation (https://github.com/lbarazza/Tennis/tree/master). We used it as a baseline against our from scratch implementation of PPO. The implementation of PPO discussed in the report is found in the ```PPO-shreyas-unity-tennis``` folder, which is a refinement and extension of the PPO code found in ```George_PPO```, which has been coded from scratch for this task.
 
-The A2C implementation found in ```A2C-shreyas-unity``` is also a from scrath implementation.
+The A2C implementation found in ```A2C-shreyas-unity``` has also been implemented from scratch.
 
