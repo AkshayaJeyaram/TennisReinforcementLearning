@@ -3,7 +3,7 @@ This repository is adapted from lbarazza's work on implementing DDPG to the tenn
 ```bash
 python main.py
 ```
-
+The below is Ibarazza's description
 
 # Tennis
 ![alt text](https://raw.githubusercontent.com/lbarazza/Tennis/master/images/tennis_ex_image.png "Tennis image")
