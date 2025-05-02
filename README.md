@@ -14,7 +14,7 @@ conda create --name RL python=3.6
 ```
 
 # 3. Clone this repository
-(Assuming git package is installed on your device) 
+(Assuming git package is installed on your device and have activated the environment)
 ```bash
 git clone https://github.com/AkshayaJeyaram/TennisReinforcementLearning.git
 cd TennisReinforcementLearning
