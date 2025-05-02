@@ -17,16 +17,12 @@ conda create --name RL python=3.6
 (Assuming git package is installed on your device) 
 ```bash
 git clone https://github.com/AkshayaJeyaram/TennisReinforcementLearning.git
-cd deep-reinforcement-learning/python
+cd TennisReinforcementLearning
 pip install -r requirements.txt
 ```
 
 Note: If you are on windows and you get the error "Could not find a version that satisfies the requirement torch==0.4.0 (from unityagents==0.4.0)" occurs, refer to duhgrando's answer on this thread:
 https://github.com/udacity/deep-reinforcement-learning/issues/13
-
-You can also install a specific version of PyTorch (1.8.1) optimized for CPU if you don't have GPU support:
-
-pip install https://download.pytorch.org/whl/cpu/torch-1.8.1%2Bcpu-cp38-cp38-macosx_10_9_x86_64.whl
 
 # 4. Set Up Unity Environment
 
