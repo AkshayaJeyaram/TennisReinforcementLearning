@@ -1,3 +1,10 @@
+# Note
+This repository is adapted from lbarazza's work on implementing DDPG to the tennis environment (https://github.com/lbarazza/Tennis/tree/master). The code is exactly the same, we just adapted the ```visualize_agents.py``` file to incorporate action smoothing, and added the relevant code in the ```visualise.py``` file. Having followed the dependency install steps from https://github.com/AkshayaJeyaram/TennisReinforcementLearning?tab=readme-ov-file, simply open the ```main.py``` and ```visalise.py``` files, change the unity environment's file path to match yours. Run the ```main.py``` file first and then ```visualise.py``` using:
+```bash
+python main.py
+```
+
+
 # Tennis
 ![alt text](https://raw.githubusercontent.com/lbarazza/Tennis/master/images/tennis_ex_image.png "Tennis image")
 
